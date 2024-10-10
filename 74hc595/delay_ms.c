@@ -10,5 +10,6 @@ void delay_ms(u16 ms)
 	for(i=ms;i>0;i--)
 	{
 		for(j=110;i>0;j--);
+		
 	}
 }

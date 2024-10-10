@@ -24,6 +24,7 @@ void hc595_write_data(u8 dat)
 		SRCLK=1;//上升沿 将数据移位
 		Delay_25us(1);
 	}
+	
 	//移位后要将数据传入存储寄存器 
 	  rCLK=0;
 		Delay_25us(1);

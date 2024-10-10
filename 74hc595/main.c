@@ -15,6 +15,7 @@ void main()
 			hc595_write_data(hc595_buf[i]);
 			delay_ms(500);//延时0.5s 
 			
+			
 		}
 	}
 }
